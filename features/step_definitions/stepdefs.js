@@ -1,7 +1,7 @@
 const assert = require('assert');
 const { Given, When, Then } = require('cucumber');
 
-exports.day = function isItFriday(today) {
+function isItFriday(today) {
     if (today === "Friday") {
         return "TGIF"; 
       } else {
